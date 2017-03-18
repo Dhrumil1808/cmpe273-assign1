@@ -1,0 +1,15 @@
+test-config.yml
+
+welcome_message: "Hello from Dockerized Flask App Test" 
+
+dev-config.yml
+
+welcome_message: "Hello from Dockerized Flask App" another_config: "foo bar" 
+
+dev-config.json
+
+{ "another_config": "foo bar", "welcome_message": "Hello from Dockerized Flask App" }
+
+test-config.json
+
+{ "welcome_message": "Hello from Dockerized Flask App Test" }
